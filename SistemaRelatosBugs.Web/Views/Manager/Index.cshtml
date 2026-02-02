@@ -1,0 +1,77 @@
+@model SistemaRelatosBugs.Web.Models.ViewModels.ManagerDashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard - Gestor";
+}
+
+<div class="dashboard-header">
+    <div class="container-fluid">
+        <h1>📋 Dashboard do Gestor</h1>
+        <p>Acompanhe e gerencie todos os tickets do sistema</p>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header" style="background-color: #f8f9fa;">
+                    <h5 class="mb-0">📊 Lista de Tickets (@Model.Tickets.Count)</h5>
+                </div>
+                <div class="card-body p-0">
+                    @if (Model.Tickets.Count == 0)
+                    {
+                        <div class="alert alert-info m-3">
+                            <strong>ℹ️ Nenhum ticket encontrado</strong>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead style="background-color: #f8f9fa;">
+                                    <tr>
+                                        <th style="width: 8%;">#ID</th>
+                                        <th style="width: 30%;">Título</th>
+                                        <th style="width: 20%;">Relator</th>
+                                        <th style="width: 12%;">Tipo</th>
+                                        <th style="width: 18%;">Empreendimento</th>
+                                        <th style="width: 12%;">Data</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var ticket in Model.Tickets)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <span class="badge" style="background-color: #667eea;">#@ticket.Id</span>
+                                            </td>
+                                            <td>
+                                                <strong>@ticket.Titulo</strong>
+                                            </td>
+                                            <td>@ticket.RelatorNome</td>
+                                            <td>
+                                                @if (ticket.Tipo.ToString() == "Bug")
+                                                {
+                                                    <span class="badge badge-bug">🐛 Bug</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-falha">⚠️ Falha</span>
+                                                }
+                                            </td>
+                                            <td>@ticket.Empreendimento</td>
+                                            <td>
+                                                <small style="color: #7f8c8d;">@ticket.DataCriacao.ToString("dd/MM/yyyy")</small>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

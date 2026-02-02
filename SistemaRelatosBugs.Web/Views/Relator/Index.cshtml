@@ -1,0 +1,92 @@
+@model SistemaRelatosBugs.Web.Models.ViewModels.RelatorDashboardViewModel
+
+@{
+    ViewData["Title"] = "Meus Tickets";
+}
+
+<div class="dashboard-header">
+    <div class="container-fluid">
+        <h1>🎫 Meus Tickets</h1>
+        <p>Acompanhe o status dos seus relatos de bugs e falhas</p>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <a href="@Url.Action("Create", "Relator")" class="btn-new-ticket">➕ Abrir novo ticket</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header" style="background-color: #f8f9fa;">
+                    <h5 class="mb-0">📌 Meus Relatos (@Model.Tickets.Count)</h5>
+                </div>
+                <div class="card-body p-0">
+                    @if (Model.Tickets.Count == 0)
+                    {
+                        <div class="alert alert-info m-3">
+                            <strong>ℹ️ Você não abriu nenhum ticket ainda</strong><br />
+                            <a href="@Url.Action("Create", "Relator")" style="color: #3498db; text-decoration: underline;">Clique aqui para abrir o primeiro ticket</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead style="background-color: #f8f9fa;">
+                                    <tr>
+                                        <th style="width: 8%;">#ID</th>
+                                        <th style="width: 30%;">Título</th>
+                                        <th style="width: 15%;">Tipo</th>
+                                        <th style="width: 20%;">Empreendimento</th>
+                                        <th style="width: 15%;">Status</th>
+                                        <th style="width: 12%;">Data</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var ticket in Model.Tickets)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <span class="badge" style="background-color: #667eea;">#@ticket.Id</span>
+                                            </td>
+                                            <td>
+                                                <strong>@ticket.Titulo</strong>
+                                            </td>
+                                            <td>
+                                                @if (ticket.Tipo.ToString() == "Bug")
+                                                {
+                                                    <span class="badge badge-bug">🐛 Bug</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-falha">⚠️ Falha</span>
+                                                }
+                                            </td>
+                                            <td>@ticket.Empreendimento</td>
+                                            <td>
+                                                @{
+                                                    var statusClass = ticket.Status.ToString() == "Aberto" ? "badge-aberto" : 
+                                                                     ticket.Status.ToString() == "EmAnalise" ? "badge-analise" : "badge-resolvido";
+                                                    var statusIcon = ticket.Status.ToString() == "Aberto" ? "🔵" :
+                                                                    ticket.Status.ToString() == "EmAnalise" ? "🟡" : "✅";
+                                                }
+                                                <span class="badge @statusClass">@statusIcon @ticket.Status</span>
+                                            </td>
+                                            <td>
+                                                <small style="color: #7f8c8d;">@ticket.DataCriacao.ToString("dd/MM/yyyy")</small>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

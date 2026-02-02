@@ -1,0 +1,15 @@
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.csproj.AssemblyReference.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.AssemblyInfoInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.AssemblyInfo.cs
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\bin\Debug\net9.0\SistemaRelatosBugs.Infrastructure.deps.json
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\bin\Debug\net9.0\SistemaRelatosBugs.Infrastructure.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\bin\Debug\net9.0\SistemaRelatosBugs.Infrastructure.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\bin\Debug\net9.0\SistemaRelatosBugs.Domain.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\bin\Debug\net9.0\SistemaRelatosBugs.Domain.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaR.40284F11.Up2Date
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\refint\SistemaRelatosBugs.Infrastructure.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\SistemaRelatosBugs.Infrastructure.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Infrastructure\obj\Debug\net9.0\ref\SistemaRelatosBugs.Infrastructure.dll

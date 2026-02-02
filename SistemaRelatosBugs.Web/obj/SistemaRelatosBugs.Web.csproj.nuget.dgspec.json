@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Web\\SistemaRelatosBugs.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\SistemaRelatosBugs.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\SistemaRelatosBugs.Application.csproj",
+        "projectName": "SistemaRelatosBugs.Application",
+        "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\SistemaRelatosBugs.Application.csproj",
+        "packagesPath": "C:\\Users\\ivoma\\.nuget\\packages\\",
+        "outputPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj": {
+                "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj"
+              },
+              "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj": {
+                "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj",
+        "projectName": "SistemaRelatosBugs.Domain",
+        "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj",
+        "packagesPath": "C:\\Users\\ivoma\\.nuget\\packages\\",
+        "outputPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj",
+        "projectName": "SistemaRelatosBugs.Infrastructure",
+        "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ivoma\\.nuget\\packages\\",
+        "outputPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj": {
+                "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Domain\\SistemaRelatosBugs.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Web\\SistemaRelatosBugs.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Web\\SistemaRelatosBugs.Web.csproj",
+        "projectName": "SistemaRelatosBugs.Web",
+        "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Web\\SistemaRelatosBugs.Web.csproj",
+        "packagesPath": "C:\\Users\\ivoma\\.nuget\\packages\\",
+        "outputPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\SistemaRelatosBugs.Application.csproj": {
+                "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Application\\SistemaRelatosBugs.Application.csproj"
+              },
+              "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj": {
+                "projectPath": "D:\\Luizx\\!Program\\SistemaRelatosBugs\\SistemaRelatosBugs.Infrastructure\\SistemaRelatosBugs.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\bin\Debug\net9.0\SistemaRelatosBugs.Domain.deps.json
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\bin\Debug\net9.0\SistemaRelatosBugs.Domain.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\bin\Debug\net9.0\SistemaRelatosBugs.Domain.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.AssemblyInfoInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.AssemblyInfo.cs
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.csproj.CoreCompileInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\refint\SistemaRelatosBugs.Domain.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\SistemaRelatosBugs.Domain.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Domain\obj\Debug\net9.0\ref\SistemaRelatosBugs.Domain.dll

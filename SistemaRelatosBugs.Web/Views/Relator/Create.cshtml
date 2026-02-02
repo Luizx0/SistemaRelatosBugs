@@ -1,0 +1,56 @@
+@model SistemaRelatosBugs.Web.Models.ViewModels.TicketCreateViewModel
+
+@{
+    ViewData["Title"] = "Abrir Ticket";
+}
+
+<div class="dashboard-header">
+    <div class="container-fluid">
+        <h1>➕ Abrir novo ticket</h1>
+        <p>Descreva o bug ou falha que encontrou</p>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header" style="background-color: #f8f9fa;">
+                    <h5 class="mb-0">📝 Formulário de Relato</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="form-group mb-4">
+                            <label for="Titulo" class="form-label">Título do Ticket *</label>
+                            <input class="form-control" id="Titulo" asp-for="Titulo" placeholder="Resumo do problema em uma linha" required />
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="Descricao" class="form-label">Descrição Detalhada *</label>
+                            <textarea class="form-control" id="Descricao" asp-for="Descricao" rows="5" placeholder="Descreva o problema em detalhes..." required></textarea>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="Tipo" class="form-label">Tipo de Problema *</label>
+                            <select class="form-select" id="Tipo" asp-for="Tipo" required>
+                                <option value="" disabled selected>Selecione o tipo...</option>
+                                <option value="1">🐛 Bug - Comportamento inesperado do sistema</option>
+                                <option value="2">⚠️ Falha - Sistema não funciona como deveria</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="Empreendimento" class="form-label">Empreendimento/Módulo *</label>
+                            <input class="form-control" id="Empreendimento" asp-for="Empreendimento" placeholder="Ex: Portal, Admin, API" required />
+                        </div>
+
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-success">✅ Criar Ticket</button>
+                            <a href="@Url.Action("Index", "Relator")" class="btn btn-secondary">❌ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

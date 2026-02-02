@@ -1,0 +1,17 @@
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.csproj.AssemblyReference.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.AssemblyInfoInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.AssemblyInfo.cs
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.csproj.CoreCompileInputs.cache
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Application.deps.json
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Application.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Application.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Domain.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Infrastructure.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Domain.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\bin\Debug\net9.0\SistemaRelatosBugs.Infrastructure.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaR.065CB229.Up2Date
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\refint\SistemaRelatosBugs.Application.dll
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\SistemaRelatosBugs.Application.pdb
+D:\Luizx\!Program\SistemaRelatosBugs\SistemaRelatosBugs.Application\obj\Debug\net9.0\ref\SistemaRelatosBugs.Application.dll
