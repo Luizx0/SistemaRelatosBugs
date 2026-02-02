@@ -216,47 +216,6 @@ public enum StatusTicket { Aberto = 1, EmAnalise = 2, Resolvido = 3 }
    - Solicita novo login
 ```
 
-## 📈 Próximas Melhorias
-
-### Segurança
-- [ ] Hash real de senhas (BCrypt, Argon2)
-- [ ] Validação de CSRF tokens
-- [ ] SQL Injection protection (já tem com EF)
-- [ ] Rate limiting em login
-
-### Funcionalidades
-- [ ] Editar tickets (gestor)
-- [ ] Mudar status de tickets (gestor)
-- [ ] Atribuir tickets a gestores
-- [ ] Filtros e busca
-- [ ] Paginação de listas
-- [ ] Anexos de arquivos
-- [ ] Comentários em tickets
-- [ ] Notificações por email
-
-### Validações
-- [ ] Validação de formato de CPF
-- [ ] Validação de email
-- [ ] Validação de comprimento de strings
-- [ ] Data flutuante
-
-### Banco de Dados
-- [ ] Migrar para SQL Server / PostgreSQL
-- [ ] Migrations do Entity Framework
-- [ ] Logs de auditoria
-- [ ] Backup automático
-
-### Testes
-- [ ] Testes unitários (xUnit)
-- [ ] Testes de integração
-- [ ] Testes E2E (Selenium)
-
-### DevOps
-- [ ] CI/CD com GitHub Actions
-- [ ] Docker container
-- [ ] Deploy em Azure/AWS
-- [ ] Monitoring e logging
-
 ## 📝 Notas de Desenvolvimento
 
 - O sistema usa In-Memory Database para simplicidade. Para produção, configure um banco real no `Program.cs`
