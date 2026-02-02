@@ -87,7 +87,7 @@ dotnet run
 - **Acesso**: Visualiza todos os tickets do sistema em um dashboard
 
 ### Relator
-- **Login**: `joao`
+- **Login**: `luiz`
 - **Senha**: `123`
 - **Acesso**: Cria tickets e acompanha seu status
 

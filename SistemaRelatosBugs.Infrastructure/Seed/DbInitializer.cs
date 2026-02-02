@@ -10,7 +10,7 @@ public static class DbInitializer
         if (context.Usuarios.Any()) return;
 
         var gestor = new Usuario { Nome = "Gestor Admin", Login = "admin", Username = "gestor", Email = "gestor@local", CPF = "00000000000", SenhaHash = "123", Tipo = TipoUsuario.Gestor };
-        var relator = new Usuario { Nome = "Relator João", Login = "joao", Username = "joao", Email = "joao@local", CPF = "11111111111", SenhaHash = "123", Tipo = TipoUsuario.Relator };
+        var relator = new Usuario { Nome = "Relator Luiz", Login = "luiz", Username = "luiz", Email = "luiz@local", CPF = "11111111111", SenhaHash = "123", Tipo = TipoUsuario.Relator };
 
         context.Usuarios.AddRange(gestor, relator);
         context.SaveChanges();
