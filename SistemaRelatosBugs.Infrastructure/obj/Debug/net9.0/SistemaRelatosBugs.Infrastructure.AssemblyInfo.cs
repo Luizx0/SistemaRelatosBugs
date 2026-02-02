@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaRelatosBugs.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086bd0d699258c740b1acecbb34984d83badb6c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaRelatosBugs.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaRelatosBugs.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
